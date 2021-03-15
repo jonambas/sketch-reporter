@@ -1,0 +1,14 @@
+{
+  "name": "sketch-reporter-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "sketch-reporter start"
+  },
+  "dependencies": {
+    "sketch-reporter": "../"
+  }
+}
