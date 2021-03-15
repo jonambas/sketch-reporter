@@ -1,0 +1,26 @@
+{
+  "name": "sketch-reporter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonambas/sketch-reporter.git"
+  },
+  "keywords": [
+    "sketch"
+  ],
+  "author": "Jon Ambas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonambas/sketch-reporter/issues"
+  },
+  "homepage": "https://github.com/jonambas/sketch-reporter#readme",
+  "dependencies": {
+    "fast-glob": "^3.2.5",
+    "node-sketch": "^0.14.1"
+  }
+}
