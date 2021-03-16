@@ -6,7 +6,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "sketch-reporter start"
+    "start": "sketch-reporter start",
+    "build": "sketch-reporter build"
   },
   "dependencies": {
     "sketch-reporter": "../"
