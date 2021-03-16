@@ -1,6 +1,7 @@
 .data
-.sketch-reporter
+.sketch
 node_modules
 example/files/*.sketch
 example/dist
+example/.sketch
 .vercel
