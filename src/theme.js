@@ -20,6 +20,7 @@ export default {
     400: '1.25rem',
     300: '1.125rem',
     200: '1rem',
+    150: '0.925rem',
     100: '0.875rem',
     default: '16px'
   },
@@ -43,9 +44,5 @@ export default {
   },
   borders: {
     card: '1px solid #d9e0e6'
-  },
-  fonts: {
-    sans:
-      "-apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, Helvetica, sans-serif;"
   }
 };

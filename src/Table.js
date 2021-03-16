@@ -24,7 +24,7 @@ function Row(props) {
 
 function SortIcon({ isSorted, isSortedDesc }) {
   return (
-    <Box pl="100" size={isSorted ? '18px' : null}>
+    <Box pl="100" size={isSorted ? '17px' : null}>
       {isSorted ? (
         isSortedDesc ? (
           <svg
@@ -132,12 +132,15 @@ function Table(props) {
             {headerGroup.headers.map((column) => (
               <Cell
                 as="th"
-                py="300"
+                py="400"
                 verticalAlign="top"
+                fontSize="100"
+                color={column.isSorted ? 'blue' : 'black'}
                 textAlign={['file'].includes(column.id) ? 'left' : 'right'}
                 {...column.getHeaderProps(column.getSortByToggleProps())}
+                style={{ userSelect: 'none', cursor: 'pointer' }}
               >
-                <Box display="inline-flex" verticalAlign="middle">
+                <Box display="inline-flex" verticalAlign="middle" fontWeight="600" fontSize="100">
                   {column.render('Header')}
                   <SortIcon isSorted={column.isSorted} isSortedDesc={column.isSortedDesc} />
                 </Box>
@@ -154,6 +157,7 @@ function Table(props) {
               {row.cells.map((cell) => {
                 return (
                   <Cell
+                    fontSize="150"
                     textAlign={['file'].includes(cell.column.id) ? 'left' : 'right'}
                     {...cell.getCellProps()}
                   >
