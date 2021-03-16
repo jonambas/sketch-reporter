@@ -6,8 +6,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "start": "sketch-reporter start",
-    "build": "sketch-reporter build"
+    "start": "sketch-reporter start -f 'files/*.sketch'",
+    "build": "sketch-reporter build -f 'files/*.sketch'"
   },
   "dependencies": {
     "sketch-reporter": "../"
