@@ -2,3 +2,5 @@ example
 .vscode
 .prettierrc
 .editorconfig
+.data
+.vercel
