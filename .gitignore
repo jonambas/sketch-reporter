@@ -2,3 +2,4 @@
 node_modules
 example/files/*.sketch
 example/dist
+.vercel
