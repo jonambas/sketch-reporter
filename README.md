@@ -9,5 +9,5 @@ Demo: [sketch-reporter.vercel.app](https://sketch-reporter.vercel.app)
 In a folder with your Sketch files, run the following command:
 
 ```bash
-npx sketch-reporter start --files /**/*.sketch
+npx sketch-reporter start --files "/**/*.sketch"
 ```
