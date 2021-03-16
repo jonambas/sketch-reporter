@@ -37,7 +37,7 @@ const cli = meow(
       },
       files: {
         type: 'string',
-        default: 'files/**/*.sketch',
+        default: '/**/*.sketch',
         alias: 'f'
       }
     }
