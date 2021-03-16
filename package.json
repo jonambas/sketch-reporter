@@ -1,6 +1,6 @@
 {
   "name": "sketch-reporter",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Sketch symbol reporter",
   "main": "index.js",
   "bin": {
