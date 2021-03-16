@@ -3,4 +3,5 @@ example
 .prettierrc
 .editorconfig
 .data
+.sketch-reporter
 .vercel

@@ -1,4 +1,5 @@
 .data
+.sketch-reporter
 node_modules
 example/files/*.sketch
 example/dist

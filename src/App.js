@@ -2,7 +2,7 @@ import React from 'react';
 import Theme from '@sweatpants/theme';
 import Box from '@sweatpants/box';
 import theme from './theme';
-import data from '../.data/results.json';
+import data from '../.sketch-reporter/results.json';
 import Table from './Table';
 import Aggregates from './Aggregates';
 
