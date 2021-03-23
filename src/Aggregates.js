@@ -3,18 +3,9 @@ import Box from '@sweatpants/box';
 
 function Aggregates(props) {
   const { data } = props;
-
-  const totalLayers = data.reduce((acc, entry) => {
-    return acc + entry.layerCount;
-  }, 0);
-
-  const totalExternalStyle = data.reduce((acc, entry) => {
-    return acc + entry.externalTextLayer;
-  }, 0);
-
-  const totalExternalSymbols = data.reduce((acc, entry) => {
-    return acc + entry.externalSymbol;
-  }, 0);
+  const totalLayers = data.reduce((acc, entry) => acc + entry.layers, 0);
+  const totalExternalStyle = data.reduce((acc, entry) => acc + entry.externalTextLayer, 0);
+  const totalExternalSymbols = data.reduce((acc, entry) => acc + entry.externalSymbol, 0);
 
   return (
     <Box mb="700" display="grid" gridTemplateColumns="repeat(4, 1fr)" gridGap="500">

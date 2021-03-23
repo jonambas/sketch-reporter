@@ -82,7 +82,7 @@ function Table(props) {
       },
       {
         Header: 'Layers',
-        accessor: 'layerCount',
+        accessor: 'layers',
         Cell: ({ value }) => `${value.toLocaleString()}`
       },
       {
